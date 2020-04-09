@@ -1,12 +1,13 @@
 {
-  "name": "keeper-part-3-starting",
+  "name": "using-pre-built-react-components",
   "version": "1.0.0",
+  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "3.2.0"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -22,8 +23,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  ]
 }

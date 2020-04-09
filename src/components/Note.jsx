@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React from "react";
 
 function Note(props) {
-  const handleDelete = (e) => {
+  function handleClick() {
     props.onDelete(props.id);
-  };
+  }
 
   return (
-    <div className='note'>
+    <div className="note">
       <h1>{props.title}</h1>
       <p>{props.content}</p>
-      <button onClick={handleDelete}>DELETE</button>
+      <button onClick={handleClick}>DELETE</button>
     </div>
   );
 }
