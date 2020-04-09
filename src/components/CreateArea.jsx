@@ -41,15 +41,15 @@ function CreateArea(props) {
             placeholder='Title'
           />
         ) : null}
-        <div onClick={handleClick}>
-          <textarea
-            name='content'
-            onChange={handleChange}
-            value={note.content}
-            placeholder='Take a note...'
-            rows={isTextOpened ? 3 : 1}
-          />
-        </div>
+        <textarea
+          name='content'
+          onChange={handleChange}
+          onClick={handleClick}
+          value={note.content}
+          placeholder='Take a note...'
+          rows={isTextOpened ? 3 : 1}
+        />
+
         {isTextOpened ? (
           <Zoom in={true}>
             <Fab onClick={submitNote}>
