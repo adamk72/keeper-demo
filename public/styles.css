@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 body {
   background: #eee;
+  background-color: #eeeeee;
+  background-image: url('https://www.transparenttextures.com/patterns/notebook-dark.png');
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   padding: 0 16px;
 }
 
@@ -20,7 +23,7 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
+  font-family: 'McLaren', cursive;
   font-weight: 200;
 }
 
